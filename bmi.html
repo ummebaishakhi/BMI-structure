@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+        
+    
+</head>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: skyblue;
+        }
+        span{
+            color: red;
+        }
+        .wrapper{
+            position: absolute;
+            top:45%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            padding: 15px;
+            background: black;
+            border-radius: 5px;
+            box-shadow: rgb(38,57,77) 0px 20px 30px -10px;
+        }
+        input{
+            outline: none;
+            border: none;
+            padding: 5px;
+        }
+        button{
+            color:white;
+            padding: 10px;
+             border: 2px solid white;
+             background: black;
+            display: block;
+            margin-top: 10%;
+            cursor: pointer;
+        }
+    </style>
+
+
+<body>
+    <div class="wrapper">
+        <p>Height in CM;
+            <input type="text" id="height"><br><span id="height_error"></span>
+        </p>
+        <p> Weight in KG;
+            <input type="text" id="Weight"><br><span id="Weight_error"></span>
+        </p>
+        <button id="btn">Calculate</button>
+        <p id="output"></p>
+    </div>
+    <script>
+        
+    </script>
+</body>
+</html>
